@@ -30,7 +30,7 @@ async def _stats(_, msg: Message):
     await msg.reply(f"Total Users : {users}", quote=True)
     
 
-@app.on_message(filters.user(GUA) & filters.command("bacot"))
+@app.on_message(filters.user(GUA) & filters.command("apasih"))
 async def gcast_handler(client, message):
     if len(message.command) > 1:
         text = ' '.join(message.command[1:])
