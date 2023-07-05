@@ -13,16 +13,16 @@ async def must_join_channel(bot: Client, msg: Message):
             await bot.get_chat_member(MUST_JOIN, msg.from_user.id)
         except UserNotParticipant:
             if MUST_JOIN.isalpha():
-                link = "https://t.me/" + MUST_JOIN
+                link = "https://t.me/cidsupport" + MUST_JOIN
             else:
                 chat_info = await bot.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"Si Anjeng, Masuk Sini Dulu Lu Bangsat !",
+                    f"Masuk Sini Dulu Lu",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("Sini Nyet Masuk, Jangan Lupa Salam", url=link)]
+                        [InlineKeyboardButton("Masuk, Jangan Lupa Salam", url=link)]
                     ])
                 )
                 await msg.stop_propagation()
