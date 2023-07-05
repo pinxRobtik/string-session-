@@ -13,22 +13,22 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("Owner", url="https://t.me/Rizzvbss")],
+        [InlineKeyboardButton("Owner", url="https://t.me/cdkagenouu")],
         [
             InlineKeyboardButton("Bantuan", callback_data="help"),
             InlineKeyboardButton("Tentang Saya", callback_data="about")
         ],
-        [InlineKeyboardButton("Support", url="https://t.me/kynansupport")],
+        [InlineKeyboardButton("Support", url="https://t.me/cidsupport")],
     ]
 
     START = """
-**Woy Anjeng** {}
+**Tentukan Pilihan** {}
 
 **Selamat Datang Di** {}
 
-**Ini Adalah Bot String Session Anti Deak Ya Bangsat
+**Ini Adalah Bot String Session
 
-Buat Lu ID 5 atau ID 6 yang Baru Maen Telegram**
+Buat Lu Maen Telegram**
     """
 
     HELP = """
@@ -45,11 +45,11 @@ Buat Lu ID 5 atau ID 6 yang Baru Maen Telegram**
     ABOUT = """
 **Tentang Saya** 
 
-**Saya Dibuat Oleh [Kynan](https://t.me/rizzvbss)
+**Saya Dibuat Oleh [cid](https://t.me/cdkagenouu)
 
-Buat Lu Yang Baru Maen Tele Ya Anjeng..**
+Buat Lu Yang Maen Tele Ya..**
 
-Cuma Modal Copas Ya Anjeng, Gua Bukan ProDev Ya Bangsat
+Gua Bukan ProDev Ya
 
-Maintainer : @Rizzvbss**
+Maintainer : @cidkagenouu**
     """
