@@ -71,5 +71,5 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             await callback_query.message.reply(ERROR_MESSAGE.format(str(e)))
 
 
-ERROR_MESSAGE = "Buset Eror Jink! \n\n**Error** : {} " \
-            "\n\nCoba Lu Ngadu Sono Ke @KynanSupport"
+ERROR_MESSAGE = "Terjadi Eror! \n\n**Error** : {} " \
+            "\n\nLaporkan Ke @cidsupport"
